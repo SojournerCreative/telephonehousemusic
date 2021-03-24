@@ -14231,4 +14231,24 @@ body {
   background: url(../img/background-th.jpg) no-repeat;
   background-size: 100% auto; }
 
+.ep-section {
+  position: relative; }
+
+.ep-section::before {
+  content: " ";
+  height: 849px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: -300px;
+  left: 0;
+  background: url(../img/telephonehouse/mountain-bg.png);
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+
+@media (max-width: 640px) {
+  .ep-section {
+    margin-top: 200px; } }
+
 /*# sourceMappingURL=theme.css.map */
