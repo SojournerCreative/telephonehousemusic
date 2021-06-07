@@ -1,235 +1,94 @@
 <!doctype html>
-<html lang="en">
-
-  <head>
-    <meta charset="utf-8">
-    <title>Telephone House Music</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A corporate Bootstrap theme by Medium Rare">
-    <link href="assets/css/loaders/loader-typing.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="preload" as="font" href="assets/fonts/Inter-UI-upright.var.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="assets/fonts/Inter-UI.var.woff2" type="font/woff2" crossorigin="anonymous">
-  </head>
-
-  <body data-smooth-scroll-offset="73" data-jarallax data-speed="0.5">
-    <div class="loader">
-      <div class="loading-animation"></div>
+<html>
+<head>
+  <!-- ... -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/app.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
+</head>
+<body>
+	<div class="bg-primary p-6 fixed top-0 left-0 w-full z-50">
+    <div class="container mx-auto flex flex-wrap justify-center px-8">
+        <div>
+          <img src="img/logo-white-01.svg" alt="">
+        </div>
     </div>
-    <div class="navbar-container bg-primary">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary" data-sticky="top">
-        <div class="container">
-          <a class="navbar-brand fade-page" href="index.html">
-            <img src="assets/img/telephonehouse/logo-white-01.svg" alt="Leap">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-            <img class="icon navbar-toggler-open" src="assets/img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
-            <img class="icon navbar-toggler-close" src="assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
-          </button>
-          <div class="collapse navbar-collapse justify-content-end">
-            <div class="py-2 py-lg-0">
-            </div>
-            <a href="https://telephonehouse.bandcamp.com/album/pendulum" target="_blank" class="btn btn-light ml-lg-3">Pendulum EP</a>
-            
-          </div>
-        </div>
-      </nav>
+  </div>
+  <div class="bg-primary w-full flex flex-wrap px-6 pt-32 pb-20 items-center justify-center relative overflow-hidden">
+    <img src="img/background-th.jpg" class="absolute w-full h-full object-cover object-bottom top-0 opacity-20 filter blur-sm" alt="">
+    <div class="w-full lg:w-5/6 flex flex-wrap items-center justify-center relative z-10">
+     <div class="w-full sm:flex-1 flex justify-center sm:justify-end">
+      <a href="https://telephonehouse.bandcamp.com/album/pendulum" class="w-full sm:w-2/3" target="_blank"><img src="img/telephone-house-album.jpg" class="rounded-lg shadow-lg" alt=""></a>
+     </div>
+     <div class="w-full sm:flex-1 sm:w-1/2 py-6 sm:px-6 sm:pt-0">
+       <h1 class="text-4xl font-bold text-quad-100 uppercase pb-2">Telephone House's debut EP: Pendulum</h1>
+       <p class="text-primary-100">contains three stories each with a different take on how we all deal with the balance between wanting love and actually discovering it. Drifting from delusion to clear-eyed reflection to an encounter with the divine, these songs are both deeply autobiographical and still revel in opaque metaphor.</p>
+       <a href="https://telephonehouse.bandcamp.com/album/pendulum" target="_blank" class="w-max px-5 py-2 font-bold text-primary mt-4 bg-white inline-block rounded">Buy</a>
+       <a href="https://telephonehouse.bandcamp.com/album/pendulum" target="_blank" class="w-max px-5 py-2 font-bold text-primary mt-4 bg-secondary inline-block rounded">Watch Video</a>
+     </div>
     </div>
-
-    <section class="text-light text-center has-divider header-desktop-app">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-10 col-lg-10 col-md-10">
-            <h1 class="display-3 text-primary">Pendulum EP</h1>
-            <div class="d-flex flex-column flex-sm-row justify-content-center mt-4">
-              <a href="https://telephonehouse.bandcamp.com/album/pendulum" target="_blank" class="btn btn-lg btn-light mx-2 mb-2 mb-sm-0">Purchase Album</a>
-              <a href="https://www.youtube.com/watch?v=g8kWMNUk8Q0" target="_blank" class="btn btn-lg btn-primary mx-2">
-                <span>Watch Video</span>
-              </a>
-              <a href="#release-party" class="btn btn-lg btn-primary-2 mx-2 mt-2 mt-sm-0">
-                <span>Attend Release Show</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row aos-init aos-animate justify-content-center mt-6" data-aos="fade-up" data-delay="100">
-          <div class="col-lg-6">
-            <a href="https://telephonehouse.bandcamp.com/album/pendulum" target="_blank"> <img src="assets/img/telephonehouse/telephone-house-album.jpg" alt="Image" class="shadow-md"></a>
-            <p class="text-dark pt-4">Telephone House's debut EP, <b>Pendulum</b>, contains three stories each with a different take on how we all deal with the balance between wanting love and actually discovering it. Drifting from delusion to clear-eyed reflection to an encounter with the divine, these songs are both deeply autobiographical and still revel in opaque metaphor.</p>
-          </div>
-        </div>
+  </div>
+  <div class="bg-tertiary p-8">
+    <div class="container w-full sm:w-3/5 mx-auto flex flex-wrap">
+      <div class="w-full text-center pb-6 border-b border-tertiary-600 mb-6">
+        <h2 class="text-3xl text-tertiary-900 font-bold">Featured In</h2>
       </div>
-      <!-- <div class="divider">
-        <img src="assets/img/dividers/divider-4.svg" alt="graphical divider" data-inject-svg />
-      </div> -->
-    </section>
-    <section class="bg-white ep-section">
-      <div class="container">
-        <div class="row mb-4 text-center">
-          <div class="col">
-            <h2 class="h1">Listen to our EP</h2>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="mx-auto mb-4">
-              <img class="" alt="Cracks in the pavement" src="assets/img/telephonehouse/cracks.jpg" />
-            </div>
-            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1758687496/size=small/bgcol=ffffff/linkcol=333333/artwork=none/track=1304778170/transparent=true/" seamless><a href="https://telephonehouse.bandcamp.com/album/pendulum">Pendulum by Telephone House</a></iframe>
-            <br><br>
-          </div>
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="mx-auto mb-4">
-              <img class="" alt="In The Middle" src="assets/img/telephonehouse/in-the-middle.jpg"  />
-            </div>
-              <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1758687496/size=small/bgcol=ffffff/linkcol=333333/artwork=none/track=4280988183/transparent=true/" seamless><a href="https://telephonehouse.bandcamp.com/album/pendulum">Pendulum by Telephone House</a></iframe>
-              <br><br>
-          </div>
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="mx-auto mb-4">
-              <img class="" alt="Putnam &amp; Bedford" src="assets/img/telephonehouse/putnam.jpg" />
-            </div>
-            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1758687496/size=small/bgcol=ffffff/linkcol=333333/artwork=none/track=1526465932/transparent=true/" seamless><a href="https://telephonehouse.bandcamp.com/album/pendulum">Pendulum by Telephone House</a></iframe>
-            <br><br>
-          </div>
-        </div>
+      <div class="w-1/3 flex justify-center">
+        <a href="https://artandseek.org/2021/03/11/new-single-from-dallas-band-telephone-house-explores-loves-warning-signs/" target="_blank"> <img class="w-32" src="img/art&seek.png" alt=""></a>
       </div>
-    </section>
-    <section id="release-party">
-      <div class="container bg-primary-alt">
-        <div class="row align-items-center">
-          <div class="col-md-6 pt-2 pt-md-0 pl-md-0">
-            <img src="assets/img/wd-poster.jpg" alt="Wild Detectives May 13th Telephone House Release Show Poster" class="w-100">
-          </div>
-          <div class="col-md-6 pt-3 pb-4">
-            <h3>Attend Our Release Show!</h3>
-            <p class="lead">We are excited to perform our "Pendulum" EP at Wild Detectives at 8pm on March 13th. Please click the link below for more details and to purchase tickets!</p>
-            <a href="https://www.prekindle.com/event/91992-telephone-house-pendulum-ep-release-at-the-wild-detectives-dallas" class="btn btn-primary-2">Attend</a>
-          </div>
-        </div>
+      <div class="w-1/3 flex justify-center">
+        <a href="https://www.centraltrack.com/white-noise-music-fests-are-coming-back-to-dallas-soon/" target="_blank"><img class="w-32" src="img/centraltrack.png" alt=""></a>
       </div>
-    </section>
-    <section class="bg-white">
-      <div class="container">
-        <div class="row align-items-center justify-content-around o-hidden">
-          <div class="col-md-6 col-lg-5 mb-4 mb-md-0" data-aos="fade-right">
-            <img src="assets/img/telephonehouse/promo.jpg" alt="Image" class="shadow">
-          </div>
-          <div class="col-lg-5 col-md-6" data-aos="fade-left">
-            <h3 class="h2">About Telephone House</h3>
-            <p class="lead">Formed in the middle of the Coronavirus Pandemic, with songs composed mostly on phones, Telephone House (Daniel Bowman &amp; Tarun Krishnan) reflects the introspective and lonely nature of our uncertain era.  They have a penchant for sweeping strings and brass that seamlessly trade off with vocals, blending elements of Classical, Jazz, and Folk with hooky pop sensibilities. <br><br> Daniel Bowman is also the front man for Dallas pop/folk band Fox &amp; the Bird.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center pb-4">
-            <hr/>
-            <h4 class="text-primary-3">Telephone House In the Media</h4>
-          </div>
-          <div class="col-4 text-center">
-            <a href="https://kxt.org/2021/03/new-single-from-dallas-band-telephone-house-explores-loves-warning-signs/" target="_blank"><img src="/assets/img/telephonehouse/KXT.png" alt="Telephone House Featured in KXT 97.1" class="w-75"></a>
-          </div>
-          <div class="col-4 text-center">
-            <a href="https://www.centraltrack.com/white-noise-music-fests-are-coming-back-to-dallas-soon/" target="_blank"><img src="/assets/img/telephonehouse/centraltrack.png" alt="Telephone House Featured on Central Track" class="w-75"></a>
-          </div>
-          <div class="col-4 text-center">
-            <a href="https://artandseek.org/2021/03/11/new-single-from-dallas-band-telephone-house-explores-loves-warning-signs/" target="_blank"><img src="/assets/img/telephonehouse/art&seek.png" alt="Telephone House Featured in Art & Seek" class="w-75"></a>
-          </div>
-          
-        </div>
+      <div class="w-1/3 flex justify-center">
+        <a href="https://kxt.org/2021/03/new-single-from-dallas-band-telephone-house-explores-loves-warning-signs/" target="_blank"><img class="w-32" src="img/KXT.png" alt=""></a>
       </div>
-    </section>
-    <footer class="pb-4 bg-primary text-light" id="footer">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-6 col-lg">
-            <h5>Contact</h5>
-            <ul class="list-unstyled">
-              <li class="mb-3 d-flex">
-                <img class="icon" src="assets/img/icons/theme/communication/mail.svg" alt="mail icon" data-inject-svg />
-                <div class="ml-3">
-                  <a href="mailto:telephonehousemusic@gmail.com">telephonehousemusic@gmail.com</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row justify-content-center mb-2">
-          <div class="col-auto">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="https://instagram.com/telephonehousemusic" class="nav-link">
-                  <img class="icon " src="assets/img/icons/social/instagram.svg" alt="instagram social icon" data-inject-svg />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://www.facebook.com/telephonehousemusic" class="nav-link">
-                  <img class="icon " src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col col-md-auto text-center">
-            <small class="text-muted">&copy;2021 Telephone House. Designed by <a href="https://sojournercreative.co">Sojourner Creative</a> and built with <a href="https://getbootstrap.com">Bootstrap.</a>
-            </small>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up" data-aos-offset="2000" data-aos-mirror="true" data-aos-once="false">
-      <img class="icon" src="assets/img/icons/theme/navigation/arrow-up.svg" alt="arrow-up icon" data-inject-svg />
-    </a>
-    <!-- Required vendor scripts (Do not remove) -->
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
-
-    <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
-
-    <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
-    <script type="text/javascript" src="assets/js/aos.js"></script>
-    <!-- Clipboard (copies content from browser into OS clipboard) -->
-    <script type="text/javascript" src="assets/js/clipboard.min.js"></script>
-    <!-- Fancybox (handles image and video lightbox and galleries) -->
-    <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
-    <!-- Flatpickr (calendar/date/time picker UI) -->
-    <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
-    <!-- Flickity (handles touch enabled carousels and sliders) -->
-    <script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
-    <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
-    <script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
-    <!-- Isotope (masonry layouts and filtering) -->
-    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- jarallax (parallax effect and video backgrounds) -->
-    <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
-    <script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
-    <script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
-    <!-- jQuery Countdown (displays countdown text to a specified date) -->
-    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
-    <!-- jQuery smartWizard facilitates steppable wizard content -->
-    <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
-    <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
-    <script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
-    <!-- Prism (displays formatted code boxes) -->
-    <script type="text/javascript" src="assets/js/prism.js"></script>
-    <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
-    <script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
-    <!-- Smooth scroll (animation to links in-page)-->
-    <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
-    <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
-    <script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
-    <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
-    <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
-    <!-- Typed text (animated typing effect)-->
-    <script type="text/javascript" src="assets/js/typed.min.js"></script>
-    <!-- Required theme scripts (Do not remove) -->
-    <script type="text/javascript" src="assets/js/theme.js"></script>
-    <!-- Removes page load animation when window is finished loading -->
-    <script type="text/javascript">
-      window.addEventListener("load", function () {    document.querySelector('body').classList.add('loaded');  });
-    </script>
-
-  </body>
-
+      
+    </div>
+  </div>
+  <div class="bg-primary p-8 relative">
+    <img src="img/ruins-no-txt.jpg" class="absolute h-full w-full top-0 left-0 object-cover object-bottom filter z-0 w-full" alt="">
+    <div class="w-full h-full top-0 left-0 absolute bg-primary opacity-50"></div>
+    <div class="container mx-auto w-full sm:w-3/5 flex flex-wrap  items-center justify-center relative overflow-hidden z-10">
+      
+      <div class="w-full text-center pb-6"><h2 class="text-white text-3xl font-bold">Upcoming Events</h2></div>
+      <div class="w-1/2 flex justify-center sm:justify-end">
+        <a href="https://telephonehouse.bandcamp.com/album/pendulum" class="w-full sm:w-2/3" target="_blank"><img src="img/ruins-06-24.png" class="rounded-lg shadow-lg" alt=""></a>
+       </div>
+       <div class="w-full sm:flex-1 sm:w-1/2 py-6 sm:px-6 sm:pt-0">
+         <div class="p-4 bg-primary rounded-lg">
+           <h1 class="text-4xl font-bold text-white uppercase pb-2">Telephone House at Ruins Deep Ellum</h1>
+            <p class="text-white">Join us as we perform songs from our EP "Pendulum" and other songs at Ruins in Deep Ellum</p>
+            <a href="https://www.ruinsdeepellum.com/" target="_blank" class="w-max px-5 py-2 font-bold text-primary mt-4 bg-secondary-100 inline-block rounded">Visit Ruins Website</a>
+         </div>
+       </div>
+    </div>
+  </div>
+  <div class="bg-primary-700 p-8">
+    <div class="container w-full sm:w-3/5 mx-auto">
+      <h2 class="text-white text-3xl font-bold pb-6">About Telephone House</h2>
+      <p class="text-white">
+        Formed in the middle of the Coronavirus Pandemic, with songs composed mostly on phones, Telephone House (Daniel Bowman & Tarun Krishnan) reflects the introspective and lonely nature of our uncertain era. They have a penchant for sweeping strings and brass that seamlessly trade off with vocals, blending elements of Classical, Jazz, and Folk with hooky pop sensibilities. 
+        <br><br>
+        Daniel Bowman is also the front man for Dallas pop/folk band Fox & the Bird.
+      </p>
+    </div>
+  </div>
+  <div class="bg-primary p-8">
+    <div class="container mx-auto w-full flex flex-wrap items-center sm:w-3/5">
+     <div class="text-white w-8 mr-6"> 
+       <a href="https://instagram.com/telephonehousemusic" target="_blank"><svg  fill="#FFF"  xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" class="injected-svg icon" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Instagram icon</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path></svg></a>
+     </div>
+     <div class="text-white w-8 mr-4">
+      <a href="https://www.facebook.com/telephonehousemusic" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" class="injected-svg icon" fill="#FFF" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Facebook icon</title><path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></path></svg></a>
+     </div>
+     <div class="flex-1 text-right">
+       <p class="text-primary-200">Contact us at <br> <a href="mailto:telephonehousemusic@gmail.com" class="text-white">telephonehousemusic@gmail.com</a></p>
+     </div>
+     <div class="w-full pt-4 border-t border-primary-400 mt-4 text-primary-100 text-center">
+       <small class="text-sm">&copy;2021 Tarun Krishnan and Daniel Bowman. All Rights Reserved.</small>
+     </div>
+    </div>
+  </div>
+</body>
 </html>
