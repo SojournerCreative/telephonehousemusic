@@ -114,6 +114,7 @@
 </a></p>
       </div>
     </section>
+    <a href="#" class="scrolltop">&uarr; Back to Top</a>
   </main>
   
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
@@ -130,6 +131,19 @@
   <script>
     $('document').ready(function() {
       document.getElementById("year").innerHTML = new Date().getFullYear();
+      $(window).on('scroll', function(){
+        var pos = $(window).scrollTop();
+        console.log(pos);
+        if(pos >= 500) {
+          $('.scrolltop').addClass('show');
+        } else {
+          $('.scrolltop').removeClass('show');
+        }
+      });
+      
+      $('.scrolltop').on('click', function(){
+        window.scrollTo({top: 0, behavior: 'smooth'});
+      });
     });
   </script>
 </body>
