@@ -43,6 +43,8 @@
             Daniel's fellow Fox &amp; the Bird members Mimo Morreale (Bass), Bill Richmond (Violin), Sister's Aaron Stanfield (Drums), 
             Ben Folds Laundry's Ben Fisher (Keys), and schoolteacher extraordinaire J Norris (Guitar).
           </small>
+          <hr>
+          <small class="fineprint">&copy<span id="year"></span> Tarun Krishnan &amp; Daniel Bowman. All Rights Reserved.</small>
         </p>
       </header>
   </nav>
@@ -127,7 +129,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
   <script>
     $('document').ready(function() {
-      
+      document.getElementById("year").innerHTML = new Date().getFullYear();
     });
   </script>
 </body>
