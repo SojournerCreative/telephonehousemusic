@@ -450,7 +450,8 @@ section#music {
 
 section#music article {
   padding:45px;
-  min-height:50vh;
+/*   min-height:50vh; */
+flex:1;
   display:flex;
   flex-wrap:wrap;
   align-items:center;
