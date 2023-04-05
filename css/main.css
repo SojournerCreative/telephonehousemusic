@@ -524,6 +524,29 @@ flex:1;
   z-index: 3;
 }
 
+#album.edifice {
+  background:url('../img/bg-edifice.jpg');
+  background-position:bottom center;
+  position:relative;
+}
+
+#album.edifice::before {
+  content:" ";
+  background:#7d3d20;
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  opacity:.65;
+  z-index: 3;
+}
+
+#album.edifice .album-content a.album {
+  color:#7d3d29 !important;
+  background: #edbb67;
+}
+
 #album.pendulum .album-content a.album {
   color:#6b9ac6 !important;
   background: #e1effd;
